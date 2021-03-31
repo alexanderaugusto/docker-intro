@@ -1,0 +1,19 @@
+{
+  "name": "docker-intro",
+  "version": "1.0.0",
+  "description": "API para o docker",
+  "main": "index.js",
+  "author": "Alexander Augusto",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "dev": "nodemon ./src/index"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
