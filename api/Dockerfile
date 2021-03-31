@@ -2,7 +2,7 @@ FROM node:10-slim
 
 WORKDIR /home/node/app
 
-COPY package.json yarn.lock ./
+COPY package.json yarn.lock
 
 RUN yarn
 
