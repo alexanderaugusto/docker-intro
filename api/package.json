@@ -7,7 +7,7 @@
   "license": "MIT",
   "private": false,
   "scripts": {
-    "start": "nodemon ./src/index"
+    "start": "node ./src/index"
   },
   "dependencies": {
     "express": "^4.17.1",
